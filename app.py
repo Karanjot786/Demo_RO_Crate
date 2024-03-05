@@ -11,7 +11,7 @@ load_dotenv()
 connection_string = os.getenv('URL')
 
 # Connect to your MongoDB
-client = MongoClient(connection_string)
+client = MongoClient(connection_string) 
 db = client['rocrate_db'] 
 rocrate_collection = db['rocrates'] 
 
