@@ -72,7 +72,5 @@ def delete_rocrate(rocrate_id):
 
     return jsonify({'message': 'RO-Crate deleted'}), 200
 
-# ... Other FOCA setup code ...
-
 if __name__ == '__main__':
     app.run(debug=True) 
